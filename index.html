@@ -1,268 +1,209 @@
-<!DOCTYPE html>
-<html lang="">
-<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-<head>
-<title>Vallume</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-</head>
-<body id="top">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- ################################################################################################ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<!-- Nav Start -->
-<nav class="navbar navbar-expand-lg fixed-top py-3" style="background-color: rgba(17, 0, 255, 0);">
-  <a class="navbar-brand" href="#"
-      style="font-family: Montserrat Medium;color: white;font-size: 150%;letter-spacing: 4px;">LOGO</a>
-  <div class="topnav ml-auto">
-      <div class="row">
-          <div class="col">
-              <a href="#home" class="btn btn-primary btn-md ml-auto active"
-                  style="font-family: Roboto;color: white;">ENTRY</a>
-          </div>
-          <div class="col">
-              <div id="myLinks">
-                  <a href="#news">News</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#about">About</a>
-              </div>
-              <a class="active" href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-              </a>
-          </div>
-      </div>
-  </div>
-</nav>
-<!-- Nav End -->
-<!-- Background Start -->
-<div class="wrapper bgded overlay" style="background-image:url('https://wallpaperaccess.com/full/1202561.jpg');">
-  <div id="pageintro" class="hoc clear"> 
-    <article>
-      <h3 class="heading">技術が創る新しい世界</h3>
-    </article>
-  </div>
-</div>
-<!-- Background End -->
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- Introblocks Start -->
-    <section id="introblocks">
-      <div class="sectiontitle">
-        <h6 class="heading">Technical</h6>
-        <h7>この文章はダミーです。</h7>
-        <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<br/>
-          この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
-      </div>
-    </section>
-    <!-- Introblocks End -->
-    <!-- Overlay -->
-    <hr class="btmspace-80">
-    <!-- Overlay Section Start -->
-    <section>
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
 
-        <div class="view overlay">
-          <img src="https://i.pinimg.com/736x/ed/06/d5/ed06d5f8200243248987195e3a2cf242.jpg" class="img-fluid " alt="smaple image">
-          <div class="mask flex-center rgba-blue-light">
-            <h2 class="white-text">01</h2> <br/>
-          </div>
-        </div>
+    <title>Projek PABW</title>
+  </head>
+  <body>
 
-      </div>
-    </section>
-    <!-- Overlay Section End-->
-    <!-- Jumbotron Start -->
-    <section class="row" name="row2">
-      <div class="container">
-          <div class="jumbotron jumbotron-fluid">
-              <h1 class="display-4 text-center ">100年企業をめざして</h1>
-              <p class="lead text-center">Aiming for 100 years company</p>
-          </div>
-      </div>
-    </section>
-    <!-- Jumbotron End -->
-    <!--? Office environment  Start-->
-      <section class="office-environments" >
-        <div class="container">
-            <div class="environments-wrapper section-bg02" data-background="https://wallpaperaccess.com/full/93573.jpg">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-8 offset-xl-5 offset-lg-4">
-                        <div class="office-pera">
-                            <div class="section-tittle">
-                                <h2 class="mb-30">We have the latest  equipment</h2>
-                                <p>Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum reeut cupidatatfug nulla pariatur. Excepteur sintxsdfas occaecat.</p>
-                                <a href="#" class="btn">About Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="color: white;">LOGO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link btn btn-biru" href="#" style="color: white;">Entry</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link navbar-toggler-icon" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
+          </li>
         </div>
-    </section>
-    <!-- Office environment  End-->
-    <!--? Testimonial Area Start -->
-      <section class="testimonial-area testimonial-padding fix">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-8 col-lg-8">
-                    <div class="about-caption pb-bottom">
-                        <!-- Testimonial Start -->
-                        <div class="h1-testimonial-active dot-style">
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial position-relative">
-                                <div class="testimonial-caption">
-                                    <img src="assets/img/icon/quotes-sign.svg" alt="" class="quotes-sign">
-                                    <p>"The automated process starts as soon as your clothe go into the machine. This site outcome is gleaming clothe to the placeholder text commonly</p>
-                                </div>
-                                <!-- founder -->
-                                <div class="testimonial-founder d-flex align-items-center">
-                                    <div class="founder-img">
-                                        <img src="assets/img/icon/testimonial.svg" alt="">
-                                    </div>
-                                    <div class="founder-text">
-                                        <span>Robart Brown</span>
-                                        <p>Creative designer at Colorlib</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <!-- Testimonial End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- testimonial-right img -->
-        <div class="testimonial-right-img">
-            <img src="https://www.xtrafondos.com/wallpapers/audifonos-en-rosa-y-azul-pastel-3844.jpg" alt="">
-        </div>
-    </section>
-    <!--? Testimonial Area End -->
-    <!-- Blog Section Start -->
-    <section>
-      <div class="sectiontitle">
-        <h6 class="heading">BLOG</h6>
-        <p>オウンドメディア</p>
       </div>
-      <ul class="nospace group overview">
-        <li class="one_third">
-          <figure><a href="#"><img src="images/demo/320x240.png" alt=""></a>
-            <figcaption>
-              <h6 class="heading">NEWS</h6>
-              <p>テキストが入ります。テキストが入ります。
-                テキストが入ります。</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="one_third">
-          <figure><a href="#"><img src="images/demo/320x240.png" alt=""></a>
-            <figcaption>
-              <h6 class="heading">NEWS</h6>
-              <p>テキストが入ります。テキストが入ります。
-                テキストが入ります。</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="one_third">
-          <figure><a href="#"><img src="images/demo/320x240.png" alt=""></a>
-            <figcaption>
-              <h6 class="heading">NEWS</h6>
-              <p>テキストが入ります。テキストが入ります。
-                テキストが入ります。</p>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
-    <!-- Blog Section End -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
-<!-- Recruit Overlay Start -->
-<div class="container templateux-section">
-  <div class="row">
-    <div class="col-12 col-md-7 mx-auto text-center mb-5">
-      <h2>Recruit</h2>
-      <p>採用情報</p>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">技術が創る新しい世界</h1>
     </div>
   </div>
-</div>
-<div class="templateux-section pt-0 pb-0">
+  <!-- akhir jumbotron -->
+
+  <!-- info panel -->
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 templateux-overlap">
+    <div class="row justify-content-center">
+      <div class="col-10 info-panel">
         <div class="row">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="media block-icon-1 d-block text-center">
-              <div class="icon mb-3">
-                <img src="https://i.pinimg.com/564x/75/ce/88/75ce88999c5cb080b6eabe19655b4555.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="media-body">
-                <h3 class="h5 mb-4">募集要項</h3>
-              </div>
-            </div> <!-- .block-icon-1 -->
+          <div class="col-lg">
+            <h1>TECHNICAL</h1>
+            <p style="color: #a3a3a3;">この文章はダミーです。</p>
+            <p class="tpanelakhir">
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。 <br>
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+            </p>
           </div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="media block-icon-1 d-block text-center">
-              <div class="icon mb-3">
-                <img src="https://i.pinimg.com/564x/75/ce/88/75ce88999c5cb080b6eabe19655b4555.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="media-body">
-                <h3 class="h5 mb-4">選考プロセス</h3>
-              </div>
-            </div> <!-- .block-icon-1 -->
-          </div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
-            <div class="media block-icon-1 d-block text-center">
-              <div class="icon mb-3">
-                <img src="https://i.pinimg.com/564x/75/ce/88/75ce88999c5cb080b6eabe19655b4555.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="media-body">
-                <h3 class="h5 mb-4">教育プログラム</h3>
-              </div>
-            </div> <!-- .block-icon-1 -->
-          </div>
-          
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Recruit Overlay End -->
-<!--Footer -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/02.png');"></div>
-<!-- Footer Background Image Wrapper Start-->
-<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/03.png');"> 
-  <div class="wrapper row4">
-    <footer id="footer" class="hoc clear"> 
-      <button type="submit">ENTRY</button>
-    </footer>
-  </div>
-  <!-- Copyright -->
-  <div class="wrapper row5">
-    <div id="copyright" class="hoc clear"> 
-      <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
-      <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  <!-- akhir info panel -->
+
+  <!-- info projek -->
+  <div class="row justify-content-center">
+    <div class="col info-projek">
+      <div class="row">
+        <div class="col projek1">
+          <h6>Projek File</h5>
+          <p class="nomer">01</p>
+          <p class="tprojekakhir">タイトル</p>
+        </div>
+        <div class="col projek2">
+          <h6>Projek File</h5>
+          <p class="nomer">02</p>
+          <p class="tprojekakhir">タイトル</p>
+        </div>
+        <div class="col projek3">
+          <h6>Projek File</h5>
+          <p class="nomer">03</p>
+          <p class="tprojekakhir">タイトル</p>
+        </div>
+        <div class="col projek4">
+          <h6>Projek File</h5>
+          <p class="nomer">04</p>
+          <p class="tprojekakhir">タイトル</p>
+        </div>
+        <div class="col projek5">
+          <h6>Projek File</h5>
+          <p class="nomer">05</p> 
+          <p class="tprojekakhir">タイトル</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<!-- Footer Background Image Wrapper End -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
-</body>
+  <!-- akhir info projek -->
+
+  <!-- panel ke2 -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 info-panel2">
+        <div class="row">
+          <div class="col-lg">
+            <h1>100年企業をめざして</h1>
+            <p class="tpanel2akhir">
+              Aiming for 100 years company
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir panel ke2 -->
+
+  <!-- projek story -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 projek-story">
+        <div class="row">
+          <div class="col-lg">
+            <img src="img/img_story.jpg" alt="" class="float-left" style="margin-right: 100px;">
+            <h1>Project <br>Story </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 panel-kecil">
+        <p><span>01</span>tulisan jepang detail projek story</p>
+        <img src="img/icon_line.png" alt="">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 panel-kecil2">
+        <p><span>02</span>tulisan jepang detail projek story</p>
+        <img src="img/icon_line.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- akhir projek story -->
+
+  <!-- work style -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 work-style">
+        <div class="row">
+          <div class="col-lg">
+            <img src="img/img_story.jpg" alt="" class="float-right" style="margin-left: 100px;">
+            <h1>Work <br>Style </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 panel-kecilw">
+        <p>tulisan jepang detail projek story</p>
+        <img src="img/icon_line.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- akhir work style -->
+
+  <!-- interview -->
+  
+    <div class="row justify-content-center">
+      <div class="col-lg-12 interview">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <h1> Interview </h1>
+              <h6>tulisan abu2</h6>
+              <p style="margin-top: 30px;">この文章はダミーです。文字の大きさ、量、 <br>
+                字間、行間等を確認するために入れています。</p>
+              <p>〇〇〇〇　/　名前  太郎</p>
+              <a href="">More</a>
+            </div>
+            <div class="col-lg-4">
+              <img src="img/img_orang.jpg" alt="">
+            </div>
+          </div>
+          <div class="row justify-content-center" style="margin-bottom: -90px; padding-top: 30px;">
+            <div class="col-lg-3 b1interview">
+              <h5>タイトルが入ります。</h5>
+              <img src="img/icon_linebiru.png" alt="" style="margin-bottom: 100px;">
+            </div>
+            <div class="col-lg-3 b2interview">
+              <h5>タイトルが入ります。</h5>
+              <img src="img/icon_linebiru.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+  
+  <!-- akhir interview -->
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body> 
 </html>
