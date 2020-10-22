@@ -1,65 +1,29 @@
-/* jumbotron */
-.jumbotron{
-    background-image: url(img/img_jumbotron.jpg);
-    background-size: cover;
-    height: 150mm;
-    margin-top: -75px;
-    text-align: center;
+body {
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
 }
-.jumbotron .display-4{
+.judul {
     position: relative;
-    z-index: 1;
-    color: white;
-    margin-top: 50mm;
-}
-.jumbotron::after{
-    content: '';
     display: block;
-    width: 100%;
-    height: 100%;
-    background-color:#124187 ;
-    opacity: 30%;
+}
+.judul::after {
+    content: "";
+    display: block;
+    width: 8%;
+    border-bottom: 1px solid white;
     position: absolute;
-    bottom: 0;
+    left: 110px;
+    bottom: -0.5em;
 }
 
-/* navbar */
-.navbar{
-    position: relative;
-    z-index: 1;
-}
-.navbar-toggler-icon{
-    color: #124187;
-    height: 50px;
-}
-.btn-biru{
-    background-color:#124187 ;
-    height: 40px;
-}
-.nav-link{
-    margin-left: 30px;
-}
 
-/* info panel */
-.info-panel{
-    background-color:white;
-    text-align: center;
-    margin-top: -100px;
-}
-.info-panel h1{
-    margin-top: 50px;
-}
-.tpanelakhir{
-    margin-bottom: 50px;
-}
-
-/* info projek */
-.info-projek{
+/* Project File Section */
+.project-file{
     text-align: center;
     position: relative;
     color: white;
 }
-.info-projek::after{
+.project-file::after{
     content: '';
     display: block;
     width: 100%;
@@ -70,25 +34,25 @@
     bottom: 0;
     left:0;
 }
-.info-projek h6{
+.project-file h6{
     margin-top: 100px;
     position: relative;
     z-index: 1;
 }
-.nomer{
+.number{
     align-self: center;
     font-size: 30pt;
     position: relative;
     z-index: 1;
 }
-.nomer::after{
+.number::after{
     content: '';
     display: block;
     border-bottom: 3px solid white;
     width: 20px;
     margin:auto;
 }
-.tprojekakhir{
+.title-projectfile{
     margin-bottom: 100px;
     position: relative;
     z-index: 1;
@@ -99,78 +63,39 @@
     margin-left: 100px;
 } */
 
-.projek1{
-    background-image: url(img/img_projek1.jpg);
+.project1{
+    background-image: url(img/img_project1.jpg);
     background-size: cover;
 }
-.projek2{
-    background-image: url(img/img_projek2.jpg);
+.project2{
+    background-image: url(img/img_project2.jpg);
     background-size: cover;
 }
-.projek3{
-    background-image: url(img/img_projek3.jpg);
+.project3{
+    background-image: url(img/img_project3.jpg);
     background-size: cover;
 }
-.projek4{
-    background-image: url(img/img_projek4.jpg);
+.project4{
+    background-image: url(img/img_project4.jpg);
     background-size: cover;
 }
-.projek5{
-    background-image: url(img/img_projek5.jpg);
+.project5{
+    background-image: url(img/img_project5.jpg);
     background-size: cover;
 }
 
-/* info panel ke2 */
-.info-panel2{
-    background-image: url(img/img_projek3.jpg);
-    background-size: cover;
-    text-align: center;
-    color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.info-panel2 h1{
-    margin-top: 50px;
-    position: relative;
-    z-index: 1;
-}
-.info-panel2 h1::after{ 
-    content: '';
-    display: block;
-    border-bottom: 3px solid white;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.info-panel2 p{
-    position: relative;
-    z-index: 1;
-}
-.tpanel2akhir{
-    margin-bottom: 50px;
-    position: relative;
-    z-index: 1;
-}
-.info-panel2::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color:black ;
-    opacity: 80%;
-    position: absolute;
-    bottom: 0;
-    left:0;
-}
+/*--------------------------------------------------------------*/
 
-/* projek story */
-.projek-story{
+/* Project Story Section*/
+.project-story{
     background-color:#e4e5e4;
     text-align: center;
     margin-top: 100px;
 }
-.projek-story h1{
+.project-story h1{
     margin-top: -30px;
     color: #124187;
+    font-family: 'Crimson Text', serif;
     text-align: left;
 }
 /* .projek-story::after{
@@ -183,58 +108,60 @@
     bottom: 0;
     left:0;
 } */
-.projek-story img{
+.project-story img{
     margin-top: -100px;
     margin-left: -150px;
     margin-bottom: 70px;
     width: 90%;
 }
-/* panel kecil */
-.panel-kecil{
+    /* small panel for project story section */
+.small-panel{
     background-color:#1d2b4e;
     text-align: center;
     margin-bottom: 50px;
     margin-top: -100px;
     margin-left: 500px;
 }
-.panel-kecil p{
+.small-panel p{
     color: white;
     padding: none;
     text-align: left;
     margin-top: 15px;
 }
-.panel-kecil p span{
+.small-panel p span{
     margin-right: 30px;
 }
-.panel-kecil img{
+.small-panel img{
     margin-top: -30px;
     float: right;    
     width: 30px;
 }
-/* panel kecil 2 */
-.panel-kecil2{
+/* small panel 2 */
+.small-panel2{
     background-color:#1d2b4e;
     text-align: center;
     margin-bottom: 50px;
     margin-top: -40px;
     margin-left: 500px;
 }
-.panel-kecil2 p{
+.small-panel2 p{
     color: white;
     padding: none;
     text-align: left;
     margin-top: 15px;
 }
-.panel-kecil2 p span{
+.small-panel2 p span{
     margin-right: 30px;
 }
-.panel-kecil2 img{
+.small-panel2 img{
     margin-top: -30px;
     float: right;    
     width: 30px;
 }
 
-/* work style */
+/*--------------------------------------------------------------*/
+
+/* Work Style Section */
 .work-style{
     background-color:#e4e5e4;
     text-align: center;
@@ -244,6 +171,7 @@
     margin-top: -30px;
     color: #124187;
     text-align: left;
+    font-family: 'Crimson Text', serif;
 }
 .work-style img{
     margin-top: -100px;
@@ -251,30 +179,32 @@
     margin-bottom: 70px;
     width: 90%;
 }
-/* panel kecil */
-.panel-kecilw{
+    /* small-panel3 for work style section */
+.small-panel3{
     background-color:#1d2b4e;
     text-align: center;
     margin-bottom: 50px;
     margin-top: -100px;
     margin-right: 500px;
 }
-.panel-kecilw p{
+.small-panel3 p{
     color: white;
     padding: none;
     text-align: left;
     margin-top: 15px;
 }
-.panel-kecilw p span{
+.small-panel3 p span{
     margin-right: 30px;
 }
-.panel-kecilw img{
+.small-panel3 img{
     margin-top: -30px;
     float: right;    
     width: 30px;
 }
 
-/* interview */
+/*--------------------------------------------------------------*/
+
+/* Interview Section */
 .interview{
     background-color:#e4e5e4;
     margin-top: 100px;
@@ -284,6 +214,7 @@
     color: #124187;
     text-align: left;
     font-size: 40pt;
+    font-family: 'Crimson Text', serif;
 }
 .interview h6{
     margin-top: 30px;
@@ -306,22 +237,210 @@
     margin-top: 20px;
     color: #124187;
 }
-/* binterview */
-.b1interview{
+/* button-interview */
+.button-interview1{
     margin-right: 90px;
     background-color:white;
 }
-.b1interview img{
+.button-interview1 img{
     padding-top: 35px;
     float: right;
     width: 50px;
 }
-.b2interview{
+.button-interview2{
     margin-left: 90px;
     background-color:white;
 }
-.b2interview img{
+.button-interview2 img{
     padding-top: 35px;
     float: right;
     width: 50px;
+}
+
+/*--------------------------------------------------------------*/
+
+/* Special Content Section */
+.special-content{
+    background-image: url(img/img_pic12.jpg);
+    margin-top: 100px;
+}
+.special-content h5{
+    margin-top: 20px;
+    color: #124187;
+}
+
+/* img-content */
+.img-content1{
+    margin-top: 50px;
+    margin-right: 90px;
+    background-image: url(img/img_pic5.jpg);
+    background-size: 350px;
+    padding-bottom: 130px;
+}
+.img-content2{
+    margin-top: 50px;
+    margin-left: 90px;
+    background-image: url(img/img_pic6.jpg);
+    background-size: 350px;
+    padding-bottom: 130px;
+}
+.img-content3{
+    margin-right: 90px;
+    background-image: url(img/img_pic7.jpg);
+    background-size: 350px;
+    padding-bottom: 130px;
+}
+.img-content4{
+    margin-left: 90px;
+    background-image: url(img/img_pic8.jpg);
+    background-size: 350px;
+    padding-bottom: 130px;
+}
+
+/* bar-content */
+.bar-content1{
+    margin-right: 90px;
+    background-color:white;
+    margin-bottom: 10px;
+}
+.bar-content1 img{
+    margin-top: -35px;
+    float: right;
+    width: 50px;
+}
+.bar-content2{
+    margin-left: 90px;
+    background-color:white;
+    margin-bottom: 10px;
+}
+.bar-content2 img{
+    margin-top: -35px;
+    float: right;
+    width: 50px;
+}
+.bar-content3{
+    margin-right: 90px;
+    background-color:white;
+    margin-bottom: 50px;
+}
+.bar-content3 img{
+    margin-top: -35px;
+    float: right;
+    width: 50px;
+}
+.bar-content4{
+    margin-left: 90px;
+    background-color:white;
+    margin-bottom: 50px;
+}
+.bar-content4 img{
+    margin-top: -35px;
+    float: right;
+    width: 50px;
+}
+
+/*--------------------------------------------------------------*/
+
+/* Blog Section */
+.blog{
+    text-align: center;
+}
+
+.blog h1{
+    margin-top: 50px;
+    color: #124187;
+    font-family: 'Crimson Text', serif;
+}
+.blog p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #a3a3a3;
+}
+
+.card-content{
+    margin-top: 20px;
+    text-align: left;
+}
+.card-content h6{
+    color:#124187 ;
+    float: left;
+}
+.card p{
+    margin-top: -5px;
+    text-align: left;
+    color: black;
+}
+.card span{
+    margin-left: 10px;
+    color: #a3a3a3;
+}
+.btn-card{
+    margin-top: 10px;
+}
+.no-border{
+    border: none;
+}
+
+/*--------------------------------------------------------------*/
+
+/* Recruit Section */
+.recruit{
+    text-align: center;
+    z-index: 1;
+}
+.recruit h1{
+    margin-top: 50px;
+    color: #124187;
+    font-family: 'Crimson Text', serif;
+}
+.recruit p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #a3a3a3;
+}
+
+/* button entry */
+.entry{
+    background-image: url(img/img_pic12.jpg);
+    margin-top: -100px;
+    text-align: center;
+}
+.btn-entry{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 200px;
+    background-color: #002554;
+    color: #ffffff;
+    border-color: #002554;
+    font-weight: bold;
+    letter-spacing: 0.0;
+}
+.btn-entry:hover,
+.btn-entry:active,
+.btn-entry:focus,
+.btn-entry.active {
+    /* let's darken #004E64 a bit for hover effect */
+    background: #002554;
+    color: white;
+    border-color: #002554;
+}
+.btn-entry.focus{
+    font-size: 13px;
+    color:white;
+}
+.btn-entry.hover{
+    font-size: 13px;
+    color:white;
+}
+  
+/*--------------------------------------------------------------*/
+
+/* Footer Section */
+.footer{
+    background-color: #1d2b4e;
+    color: white;
+}
+.footer p{
+    margin-top: 10px;
+    text-align: left;
 }
